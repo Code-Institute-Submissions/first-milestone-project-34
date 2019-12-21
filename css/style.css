@@ -1,0 +1,43 @@
+body {
+
+}
+
+/* COLOURS */
+
+/* NAVBAR AND JUMBOTRON */
+#navbar-section {
+
+}
+
+#landing-section {
+
+
+}
+.jumbotron {
+    height: 100vh;
+    background-image: url("../images/pliers-tiles.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* TESTIMONIALS */
+#testimonials-section {
+
+}
+
+/* ABOUT ME */
+#about-me-section {
+
+}
+
+/* GALLERY */
+#gallery-section {
+
+}
+
+/* CONTACT FORM */
+#contact-section {
+
+}
