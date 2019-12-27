@@ -45,10 +45,15 @@ body {
     padding-bottom: 1rem;
 }
 
+
+
+
+
+
 /* TESTIMONIALS */
 #testimonials-section {
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
     background-color: rgba(243, 243, 243, 0.9);
 
 }
@@ -70,10 +75,10 @@ body {
 
 /* ABOUT ME */
 #about-me-section {
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
     background-color: darkgrey;
-    background-image: url("../images/pliers-tiles.jpg");
+    background-image: url("../images/dark-towel-tiles.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,9 +141,9 @@ body {
 
 /* CONTACT FORM */
 #contact-section {
-    height: 100vh;
-    width: 100vw;
-    background-image: url("../images/pliers-tiles.jpg");
+    /* height: 100vh;
+    width: 100vw; */
+    background-image: url("../images/dark-towel-tiles.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
