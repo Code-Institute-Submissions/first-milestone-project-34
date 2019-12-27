@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Noto Serif', serif;
-
+    scroll-behavior: smooth;
 }
 
 /* COLOURS */
@@ -19,6 +19,10 @@ body {
 }
 
 #landing-section {
+
+}
+.nav-item {
+    scroll-behavior: smooth;
 
 
 }
@@ -43,6 +47,8 @@ body {
 
 /* TESTIMONIALS */
 #testimonials-section {
+    height: 100vh;
+    width: 100vw;
     background-color: rgba(243, 243, 243, 0.9);
 
 }
@@ -64,7 +70,15 @@ body {
 
 /* ABOUT ME */
 #about-me-section {
-background-color: darkgrey;
+    height: 100vh;
+    width: 100vw;
+    background-color: darkgrey;
+    background-image: url("../images/pliers-tiles.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
 }
 
 #about-me-title {
@@ -103,7 +117,7 @@ background-color: darkgrey;
 
 /* GALLERY */
 #gallery-section {
-  
+  background-color: rgba(243, 243, 243, 0.9);
 }
 
 #gallery-title {
@@ -113,6 +127,7 @@ background-color: darkgrey;
 
 #gallery-title h2 {
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 #gallery-card-parent {
@@ -121,8 +136,40 @@ background-color: darkgrey;
 
 /* CONTACT FORM */
 #contact-section {
-background-color:blue;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/pliers-tiles.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+#contact-title {
+    text-align: center;
 }
 
+#contact-title h2 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#contact-form {
+    margin: 2rem;
+    text-align: center;
+}
+
+.form-group span {
+    color: red;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    height: 10rem;
+    background-color: red;
+}
 /* MEDIA QUERIES */
 
