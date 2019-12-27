@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
 body {
     font-family: 'Noto Serif', serif;
 
@@ -101,12 +103,25 @@ background-color: darkgrey;
 
 /* GALLERY */
 #gallery-section {
+  
+}
 
+#gallery-title {
+    background-color: rgba(243, 243, 243, 0.9);
+    text-align: center;
+}
+
+#gallery-title h2 {
+    padding-top: 3rem;
+}
+
+#gallery-card-parent {
+    
 }
 
 /* CONTACT FORM */
 #contact-section {
-background-color:red;
+background-color:blue;
 }
 
 /* MEDIA QUERIES */
