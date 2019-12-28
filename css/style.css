@@ -6,26 +6,66 @@ body {
 }
 
 /* COLOURS */
+#colour-landing-section {
+
+}
+
+.colour-testimonials-section {
+    background-color: rgba(243, 243, 243, 0.9);
+}
+
+.colour-testimonials-title {
+    background-color: rgba(243, 243, 243, 0.9);
+}
+
+.colour-testimonials-quotes-box {
+    background-color: rgba(243, 243, 243, 0.9);
+}
+
+.colour-about-me-section {
+    background-color: darkgrey;
+    color:azure;
+}
+
+.colour-gallery-title {
+    background-color: rgba(243, 243, 243, 0.9);
+}
+
+.colour-gallery-section {
+    background-color: rgba(243, 243, 243, 0.9);
+}
+
+.colour-contact-section {
+    color:azure;
+}
+
+.colour-form-group span {
+    color: red;
+}
+
+.colour-footer {
+    background-color: red;
+}
 
 /* MISC */
-
 .image-container {
     text-align: center;
 }
 
-/* NAVBAR AND JUMBOTRON */
+/* NAVBAR */
 #navbar-section {
 
 }
 
+.nav-item {
+    scroll-behavior: smooth;
+}
+
+/* JUMBOTRON */
 #landing-section {
 
 }
-.nav-item {
-    scroll-behavior: smooth;
 
-
-}
 .jumbotron {
     height: 100vh;
     width: 100vw;
@@ -37,7 +77,6 @@ body {
     background-attachment: fixed;
     margin-bottom: 0;
     text-align: center;
-  
 }
 
 .jumbotron h1 {
@@ -45,21 +84,8 @@ body {
     padding-bottom: 1rem;
 }
 
-
-
-
-
-
 /* TESTIMONIALS */
-#testimonials-section {
-    /* height: 100vh;
-    width: 100vw; */
-    background-color: rgba(243, 243, 243, 0.9);
-
-}
-
 #testimonials-title {
-    background-color: rgba(243, 243, 243, 0.9);
     text-align: center;
 }
 
@@ -68,16 +94,11 @@ body {
 }
 
 .testimonials-quotes-box {
-    background-color: rgba(243, 243, 243, 0.9);
     padding: 4rem;
-
 }
 
 /* ABOUT ME */
 #about-me-section {
-    /* height: 100vh;
-    width: 100vw; */
-    background-color: darkgrey;
     background-image: url("../images/dark-towel-tiles.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -94,8 +115,9 @@ body {
     padding-top: 3rem;
 }
 
-#about-me-list {
+#about-me-list-parent {
     text-align: center;
+    padding-left: 1rem;
 }
 
 #rick-image {
@@ -105,28 +127,18 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 2.5rem;
-    
-}
-/* #rick-image img{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    overflow: hidden;
-     */
-
 }
 
-#about-me-content div {
+#about-me-content > div {
     padding: 0;
 }
 
 /* GALLERY */
 #gallery-section {
-  background-color: rgba(243, 243, 243, 0.9);
+  
 }
 
 #gallery-title {
-    background-color: rgba(243, 243, 243, 0.9);
     text-align: center;
 }
 
@@ -141,8 +153,6 @@ body {
 
 /* CONTACT FORM */
 #contact-section {
-    /* height: 100vh;
-    width: 100vw; */
     background-image: url("../images/dark-towel-tiles.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -150,6 +160,7 @@ body {
     position: relative;
     background-attachment: fixed;
 }
+
 #contact-title {
     text-align: center;
 }
@@ -164,17 +175,11 @@ body {
     text-align: center;
 }
 
-.form-group span {
-    color: red;
-}
-
-
 
 /* FOOTER */
-
 footer {
     height: 10rem;
-    background-color: red;
 }
+
 /* MEDIA QUERIES */
 
