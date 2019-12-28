@@ -6,6 +6,23 @@ body {
 }
 
 /* COLOURS */
+
+.colour-navbar {
+    background-color: transparent;
+}
+
+.colour-navbar-brand {
+    background-color: rgba(243, 243, 243, 0.9);
+}
+
+.colour-navbar-nav {
+    background-color: rgba(243, 243, 243, 0.9);
+}
+
+.colour-navbar-toggler {
+    background-color: rgba(243, 243, 243, 0.9);
+}
+
 #colour-landing-section {
 
 }
@@ -53,8 +70,19 @@ body {
 }
 
 /* NAVBAR */
+
+.navbar {
+    padding: 0;
+}
+
 #navbar-section {
 
+}
+
+.navbar-brand {
+    margin-right: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .nav-item {
@@ -68,7 +96,7 @@ body {
 
 .jumbotron {
     height: 100vh;
-    width: 100vw;
+    width: auto;
     background-image: url("../images/pliers-tiles.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -85,6 +113,10 @@ body {
 }
 
 /* TESTIMONIALS */
+#testimonials-section {
+    padding-bottom: 3rem;
+}
+
 #testimonials-title {
     text-align: center;
 }
@@ -93,9 +125,25 @@ body {
     padding-top: 3rem;
 }
 
-.testimonials-quotes-box {
-    padding: 4rem;
+.media img {
+    height: 64px;
+    width: auto;
+    
 }
+
+.testimonials-quotes-box .blockquote {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+.testimonials-quotes-box p {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+
+
 
 /* ABOUT ME */
 #about-me-section {
@@ -129,8 +177,17 @@ body {
     margin-bottom: 2.5rem;
 }
 
-#about-me-content > div {
-    padding: 0;
+#about-me-content {
+    font-size: 1.2rem;
+}
+
+.about-me-content-parent {
+    padding-bottom: 2rem;
+}
+
+#about-me-content-parent  div {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /* GALLERY */
@@ -148,7 +205,7 @@ body {
 }
 
 #gallery-card-parent {
-    
+    padding-bottom: 2rem;
 }
 
 /* CONTACT FORM */
