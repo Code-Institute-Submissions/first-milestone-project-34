@@ -12,7 +12,7 @@ body {
 
 .colour-navbar-brand {
     background-color: rgba(243, 243, 243, 0.9);
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.2s ease;
 }
 
 .colour-navbar-brand:hover {
@@ -38,6 +38,10 @@ body {
 
 .colour-testimonials-section {
     background-color: black;
+}
+
+.colour-landing-section {
+    background-color: #ffffff;
 }
 
 .colour-testimonials-title {
@@ -69,6 +73,7 @@ body {
 
 .colour-contact-section {
     color:azure;
+    background-color: darkgrey;
 }
 
 .colour-form-group span {
@@ -76,7 +81,7 @@ body {
 }
 
 .colour-footer {
-    background-color: red;
+    background-color: #ffffff;
 }
 
 /* MISC */
@@ -96,7 +101,7 @@ body {
 }
 
 .nav-item {
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.3s ease, color 0.3s ease;
     scroll-behavior: smooth;
 }
 
@@ -122,12 +127,12 @@ body {
 
 /* TESTIMONIALS */
 #testimonials-section {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 #testimonials-title {
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 #testimonials-title h2 {
@@ -137,6 +142,7 @@ body {
 .media img {
     height: 7rem;
     width: auto;
+    max-width: 100px;
     margin-top: 3rem;
     margin-left: 2rem; 
 }
@@ -224,22 +230,41 @@ body {
 
 #contact-title {
     text-align: center;
+    margin-right: 3rem;
 }
 
 #contact-title h2 {
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
 }
 
 #contact-form {
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
     text-align: center;
+    max-width: 70%;
+    padding-bottom: 2rem;
+}
+
+.contact-form-button {
+    margin-top: 0.5rem;
 }
 
 
 /* FOOTER */
 footer {
-    height: 10rem;
+    height: 7rem;
+    background-image: url("../images/pliers-tiles.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
 }
 
 /* MEDIA QUERIES */
@@ -253,11 +278,21 @@ footer {
     .lead {
         margin-bottom: 1.5rem;
     }
+    #contact-title {
+        margin-right: 10.5rem;
+    }
+    #contact-form {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 }
 @media (min-width:1024px) {
     .colour-testimonials-quotes .colour-testimonials-quotes-box:nth-of-type(even) {
         background-color:  rgba(243, 243, 243, 0.9);
         color: black;
+    }
+    .testimonials-quotes-box {
+        padding-bottom: 1rem;
     }
     #testimonial-two,
     #testimonial-three,
@@ -265,7 +300,17 @@ footer {
         background-color: black;
         color: azure;
     }
-    
+    #contact-title {
+        margin-right: 15rem;
+    }
 }
-
+@media (min-width:1025px) {
+    #contact-title {
+        margin-right: 0;
+}
+    #contact-form {
+        margin: 3rem auto;
+        max-width: 50%;
+    } 
+}
 
