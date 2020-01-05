@@ -15,7 +15,6 @@ body {
 
 .colour-navbar-brand {
     background-color: rgba(243, 243, 243, 0.9);
-    transition: background-color 0.2s ease;
 }
 
 .colour-navbar-brand:hover {
@@ -58,13 +57,21 @@ body {
 }
 
 .colour-testimonials-quotes .colour-testimonials-quotes-box:nth-of-type(even) {
-    background-color: black;
+    background-color: #000;
     color: #f0ffff;
 }
 
 .colour-about-me-section {
     background-color: #141210;
-    color:#f0ffff;
+    color: #f0ffff;
+}
+
+.colour-about-me-list a {
+    color: #e6ffffda;
+}
+
+.colour-about-me-list a:hover {
+    color: #d9534f;
 }
 
 .colour-gallery-title {
@@ -81,11 +88,19 @@ body {
 }
 
 .colour-form-group span {
-    color: red;
+    color: #d9534f;
 }
 
 .colour-footer {
     background-color: #ffffff;
+}
+
+.colour-footer-icon i {
+    color: #000;
+}
+
+.footer-icon i:hover {
+    color: #d9534f;
 }
 
 /* MISC */
@@ -102,10 +117,17 @@ body {
     margin-right: 0;
     padding-right: 1rem;
     padding-left: 1rem;
+    transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -webkit-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
 }
 
 .nav-item {
     transition: background-color 0.3s ease, color 0.3s ease;
+    -moz-transition: background-color 0.3s ease, color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+    -o-transition: background-color 0.3s ease, color 0.3s ease;
     scroll-behavior: smooth;
 }
 
@@ -187,7 +209,6 @@ body {
     padding-top: 3rem;
 }
 
-
 #about-me-list-parent {
     text-align: center;
     padding-left: 0.5rem;
@@ -195,10 +216,18 @@ body {
 }
 
 .about-me-list li {
-        padding-right: 0.5rem;
-        padding-bottom: 1rem;
-        padding-left: 0.5rem;
-    }
+    padding-right: 0.5rem;
+    padding-bottom: 1.25rem;
+    padding-left: 0.5rem;
+}
+
+.about-me-list a {
+    text-decoration: none;
+    transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+}
 
 #rick-image {
     width: 50%;
@@ -223,7 +252,7 @@ body {
 }
 
 /* GALLERY */
-#gallery{
+#gallery {
     padding-top: 40px;
 }
 
@@ -249,6 +278,7 @@ body {
     position: relative;
     background-attachment: fixed;
     padding-top: 40px;
+    padding-bottom: 1.5rem;
 }
 
 #contact-title {
@@ -258,7 +288,7 @@ body {
 
 #contact-title h2 {
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .form-group {
@@ -271,13 +301,11 @@ body {
     margin-left: 2rem;
     text-align: center;
     max-width: 70%;
-    padding-bottom: 2rem;
 }
 
 .contact-form-button {
     margin-top: 0.5rem;
 }
-
 
 /* FOOTER */
 footer {
@@ -288,6 +316,18 @@ footer {
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+}
+
+.footer-icon {
+    padding-top: 2rem;
+}
+
+.footer-icon i {
+    font-size: 2rem;
+    transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
 }
 
 /* MEDIA QUERIES */
@@ -314,6 +354,7 @@ footer {
         padding-right: 1.5rem;
     }
 }
+
 @media (min-width:1024px) {
     .colour-testimonials-quotes .colour-testimonials-quotes-box:nth-of-type(even) {
         background-color:  rgba(243, 243, 243, 0.9);
@@ -332,6 +373,7 @@ footer {
         margin-right: 15rem;
     }
 }
+
 @media (min-width:1025px) {
     #contact-title {
         margin-right: 0;
