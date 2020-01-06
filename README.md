@@ -34,7 +34,10 @@ This includes a document detailing my thoughts on the strategy and scope planes 
 
 
 ### Future Features
-
+captcha
+gallery
+smooth scrolling
+form validation
 ## Technologies Used
 * HTML5
 ..* test
