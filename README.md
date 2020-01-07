@@ -12,7 +12,7 @@ These include extra testimonials, customer photographs, extra text in the About 
 At the top of the page is a fixed navigation bar, that allows the user to navigate to the different sections of the page with a click. 
 On mobile resolutions the bar collapses to a "burger menu" button.
 ## UX
-My full UX documentation can be found in the ux-design folder. 
+My full UX documentation can be found in the ux-design folder, which can be found [here](ux-design).
 This includes a document detailing my thoughts on the strategy and scope planes of this project, plus the basic structure and my skeleton wireframes.
 
 ### User Stories
@@ -27,35 +27,45 @@ This includes a document detailing my thoughts on the strategy and scope planes 
 
 * The navigation bar allows users to navigate to the different sections of the page by clicking or tapping the appropriate heading. Clicking or tapping the brand name furthest to the left will reload the page.
 * The landing page features a button that will navigate to the contact form.
-* The Testimonials and About Rick sections use responsive Bootstrap grids to present text and images.
+* The Testimonials and About Rick sections use responsive Bootstrap grids to present text and images. There are links to social media and other sections of the page in the About Rick section.
 * The Gallery section uses Bootstrap Cards to create a responsive Pinterest-style image gallery.
-* The Contact form 
-*
-
+* The Contact form allows users to input data into the appropriate fields and submit that data with a button click.
+* The footer includes icons that can be clicked or tapped to open up social media pages in a new tab.
 
 ### Future Features
-captcha
-gallery
-smooth scrolling
-form validation
+
+* The gallery could be expanded to feature more images while taking up the same amount of space on the page, possibly with the use of a carousel or images that can be hidden. These images could also be enlarged with a click.
+* An additional script could allow the navbar links could cause the page to scroll to the relevant section rather than immediately snap to it.
+* The input validation of the contact form could be improved. A captcha could be added to prevent bot spam.
+
 ## Technologies Used
 * HTML5
+
 ..* test
 * CSS3
+
 ..* test
 * Bootstrap
+
 ..* test
 * Git
+
 ..* test
 * GitHub
+
 ..* test
 * Google Chrome
+
 ..*
 * GitPod IDE
+
 ..*
 * Font Awesome
+
 ..*
 * JS/jQuery
+
+..*
 
 ## Testing
 
@@ -66,6 +76,8 @@ selected master branch on github
 
 ## Credits
 ### Media
+Images were sourced from <https://www.pexels.com/>
 
 ### Acknowledgements
+My design was inspired by the Whiskey Drop miniproject that was demonstrated as part of the course, as well as the Haley Schafer sample project.
 
