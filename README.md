@@ -13,7 +13,7 @@ At the top of the page is a fixed navigation bar, that allows the user to naviga
 On mobile resolutions the bar collapses to a "burger menu" button.
 ## UX
 My full UX documentation can be found in the ux-design folder, which can be found [here](ux-design).
-This includes a document detailing my thoughts on the strategy and scope planes of this project, plus the basic structure and my skeleton wireframes.
+This includes documents detailing my thoughts on the strategy and scope planes of this project, plus the basic structure and my skeleton wireframes.
 
 ### User Stories
 
@@ -39,31 +39,31 @@ This includes a document detailing my thoughts on the strategy and scope planes 
 * The input validation of the contact form could be improved. A captcha could be added to prevent bot spam.
 
 ## Technologies Used
-* HTML5
+* [HTML5]()
 
 ..* test
-* CSS3
+* [CSS3]()
 
 ..* test
-* Bootstrap
+* [Bootstrap]()
 
 ..* test
-* Git
+* [Git]()
 
 ..* test
-* GitHub
+* [GitHub]()
 
 ..* test
-* Google Chrome
+* [Google Chrome/Developer Tools]()
 
 ..*
-* GitPod IDE
+* [GitPod IDE]()
 
 ..*
-* Font Awesome
+* [Font Awesome]()
 
 ..*
-* JS/jQuery
+* [JS/jQuery]()
 
 ..*
 
@@ -76,7 +76,13 @@ selected master branch on github
 
 ## Credits
 ### Media
-Images were sourced from <https://www.pexels.com/>
+Images were sourced from: 
+
+<https://www.pexels.com/>
+
+<https://unsplash.com/>
+
+<https://images.google.co.uk/> (with usage rights set to labelled for reuse)
 
 ### Acknowledgements
 My design was inspired by the Whiskey Drop miniproject that was demonstrated as part of the course, as well as the Haley Schafer sample project.
