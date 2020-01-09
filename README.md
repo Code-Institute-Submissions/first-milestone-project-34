@@ -39,6 +39,7 @@ This includes documents detailing my thoughts on the strategy and scope planes o
 * The gallery could be expanded to feature more images while taking up the same amount of space on the page, possibly with the use of a carousel or images that can be hidden. These images could also be enlarged with a click.
 * An additional script could allow the navbar links could cause the page to scroll to the relevant section rather than immediately snap to it.
 * The input validation of the contact form could be improved. A captcha could be added to prevent bot spam.
+* Google Maps could be implemented to show the area that the services are provided.
 
 ## Technologies Used
 * [HTML5](https://www.w3.org/TR/2017/REC-html52-20171214/)
@@ -93,19 +94,19 @@ All actions have been tested in the following browsers: Google Chrome, Opera, Mo
    4. The font Noto Serif displays correctly.
 
 2. Navigation Bar and Landing Page
-    1. The navbar bar is visible and stays fixed to the top of the screen.
-    2. All navbar links can be clicked and the link works properly, moving to the appropriate section.
-    3. Clicking the brand "Rick Russell" reloads the index file.
-    4. All hover styling effects work properly when the cursor hovers over them.
-    5. The navbar options collapse to a "burger menu" icon when viewed on a mobile resolution. 
-    This has been tested using the browser developer tools and on an Android phone using the Opera Touch browser.
-    6. The collapsed burger menu can be toggled with a tap to show the links and hide them.
-    7. All navbar links in the mobile view are working and move to the appropriate section when tapped. In addition, the menu is hidden when a link is tapped.
-    8. The "Get a quote" call to action button on the landing page can be clicked or tapped and navigates to the contact form as expected.
+   1. The navbar bar is visible and stays fixed to the top of the screen.
+   2. All navbar links can be clicked and the link works properly, moving to the appropriate section.
+   3. Clicking the top left brand "Rick Russell" reloads the index file.
+   4. All hover styling effects work as intended when the cursor hovers over them.
+   5. The navbar options collapse to a "burger menu" icon when viewed on a mobile resolution. 
+   This has been tested using the browser developer tools and on an Android phone using the Opera Touch browser.
+   6. The collapsed burger menu can be toggled with a tap to show the links and hide them.
+   7. All navbar links in the mobile view are working and move to the appropriate section when tapped. In addition, the menu is hidden when a link is tapped.
+   8. The "Get a quote" call to action button on the landing page can be clicked or tapped and navigates to the contact form as expected.
 
 3. About Rick section
    1. The links within the About Rick section are working properly and navigate to the correct section. For external links, the correct page loads in a new tab.
-   2. The hover styling effect of the links is working properly when the cursor hovers over them.
+   2. The hover styling effects of the links are working as intended when the cursor hovers over them.
 
 4. Responsive design
    1. Using the browser developer tools, several different device resolutions have been tested.
@@ -119,12 +120,29 @@ All actions have been tested in the following browsers: Google Chrome, Opera, Mo
    5. On the desktop view, the layout is similar to the larger tablet view. The About Rick section now has the photo sat beside the text and the contact form is more central.
 
 5. Contact form
-   1. 
+   1. Content can be entered into all of the input fields.
+   2. On touchscreen devices, the on-screen keyboard appears. This has been tested on an Android phone and iPad. 
+   A QWERTY keyboard is provided for all except the Phone Number field, which instead provides a number keypad.
+   3. Attempting to submit the form by clicking or tapping the Submit button is working. 
+   This is made clear when trying to submit the form without all of the marked required fields having been filled, 
+   where a message appears informing the user that it is a required field.
+   4. The email field has also been tested in this way. 
+   An input that is not formatted like an email address including an @ symbol results in a message informing the user that a valid email is required.
+   5. The required and email fields also show this behaviour on mobiles and tablets.
+   6. Interestingly, the correct autocomplete data is provided for each field. 
+   For example, clicking into the address field caused my browser to suggest my own home address which was saved in the browser.
+
+6. Footer
+   1. The social media icons from Font Awesome display correctly.
+   2. The hover effect for these icons is working as intended when hovered over with the cursor.
+   3. The external link for each icon is working properly and opens in a new tab.
 
 ## Deployment
-Used master branch
-used git
-selected master branch on github
+The project was coded in the GitPod IDE. I had previously installed the GitPod browser extension, which allows you to create a GitPod workspace with the click of a button in GitHub.
+I first created a new repository in GitHub and then created the GitPod workspace, where I coded the project. 
+I used Git within GitPod as version control, with all commits being pushed to the linked GitHub repository. As I was not working on a live website and I was the sole developer, I used only the master branch.
+
+To publish my website in GitHub, I used GitHub Pages from the settings of my repository. After selecting the master branch as the source, my website project can be found here: <https://harclemadscam.github.io/first-milestone-project/>
 
 ## Credits
 ### Content
@@ -143,3 +161,4 @@ My design was inspired by the Whiskey Drop miniproject that was demonstrated as 
 
 The jQuery script that I used to collapse the navbar dropdown when links were tapped was found in this [stackoverflow thread](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click).
 
+To help create the text and box shadow effects, I used two online tools: [Here](https://html-css-js.com/css/generator/text-shadow/) and [Here](https://www.cssmatic.com/box-shadow)
