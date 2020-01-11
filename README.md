@@ -39,7 +39,7 @@ This includes documents detailing my thoughts on the strategy and scope planes o
 * The gallery could be expanded to feature more images while taking up the same amount of space on the page, possibly with the use of a carousel or images that can be hidden. These images could also be enlarged with a click.
 * An additional script could allow the navbar links could cause the page to scroll to the relevant section rather than immediately snap to it.
 * The input validation of the contact form could be improved. A captcha could be added to prevent bot spam.
-* Google Maps could be implemented to show the area that the services are provided.
+* Google Maps could be implemented to show the area in which the services are provided.
 
 ## Technologies Used
 * [HTML5](https://www.w3.org/TR/2017/REC-html52-20171214/)
@@ -140,7 +140,7 @@ All actions have been tested in the following browsers: Google Chrome, Opera, Mo
 ## Deployment
 The project was coded in the GitPod IDE. I had previously installed the GitPod browser extension, which allows you to create a GitPod workspace with the click of a button in GitHub.
 I first created a new repository in GitHub and then created the GitPod workspace, where I coded the project. 
-I used Git within GitPod as version control, with all commits being pushed to the linked GitHub repository. As I was not working on a live website and I was the sole developer, I used only the master branch.
+I used Git within GitPod for version control, with all commits being pushed to the linked GitHub repository. As I was not working on a live website and I was the sole developer, I used only the master branch.
 
 To publish my website in GitHub, I used GitHub Pages from the settings of my repository. After selecting the master branch as the source, my website project can be found here: <https://harclemadscam.github.io/first-milestone-project/>
 

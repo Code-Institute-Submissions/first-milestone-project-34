@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
+/* BODY */
 body {
     font-family: 'Noto Serif', serif;
     scroll-behavior: smooth;
@@ -92,7 +93,7 @@ body {
 }
 
 .colour-footer {
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .colour-footer-icon i {
@@ -331,6 +332,7 @@ footer {
 }
 
 /* MEDIA QUERIES */
+/*iPad and similar*/
 @media (min-width:600px) {
     .display-4 {
         font-size: 5rem;
@@ -354,7 +356,7 @@ footer {
         padding-right: 1.5rem;
     }
 }
-
+/*iPad Pro and similar*/
 @media (min-width:1024px) {
     .colour-testimonials-quotes .colour-testimonials-quotes-box:nth-of-type(even) {
         background-color:  rgba(243, 243, 243, 0.9);
@@ -373,7 +375,7 @@ footer {
         margin-right: 15rem;
     }
 }
-
+/*Larger than iPad Pro*/
 @media (min-width:1025px) {
     #contact-title {
         margin-right: 0;
@@ -383,4 +385,3 @@ footer {
         max-width: 50%;
     }
 }
-
