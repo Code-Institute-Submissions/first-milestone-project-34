@@ -168,7 +168,8 @@ body {
 }
 
 #testimonials-title h2 {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .media img {
@@ -204,10 +205,12 @@ body {
 
 #about-me-title {
     text-align: center;
+    padding-bottom: 1.5rem;
 }
 
 #about-me-title h2 {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 #about-me-list-parent {
@@ -259,11 +262,12 @@ body {
 
 #gallery-title {
     text-align: center;
+    padding-bottom: 1.5rem;
 }
 
 #gallery-title h2 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 #gallery-card-parent {
@@ -345,7 +349,7 @@ footer {
     }
     .about-me-list li {
         padding-right: 1rem;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
         padding-left: 3rem;
     }
     #contact-title {
